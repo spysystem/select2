@@ -7,10 +7,10 @@
   "keywords": [
     "jquery"
   ],
-  "main": "select2old.js",
+  "main": "select2.js",
   "styles": [
-    "select2old.css",
-    "select2old-bootstrap.css"
+    "select2.css",
+    "select2-bootstrap.css"
   ],
   "scripts": [
     "select2old.js",
@@ -58,8 +58,8 @@
     "select2_locale_zh-TW.js"
   ],
   "images": [
-    "select2old-spinner.gif",
-    "select2old.png",
+    "select2-spinner.gif",
+    "select2.png",
     "select2x2.png"
   ],
   "license": "MIT"

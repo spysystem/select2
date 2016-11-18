@@ -3,15 +3,15 @@
   "description": "select2old is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
   "homepage": "http://ivaynberg.github.io/select2old",
   "author": "Igor Vaynberg",
-  "repository": {"type": "git", "url": "git://github.com/ivaynberg/select2old.git"},
-  "main": "select2old.js",
+  "repository": {"type": "git", "url": "git://github.com/ivaynberg/select2.git"},
+  "main": "select2.js",
   "version": "3.5.4",
   "jspm": {
-    "main": "select2old",
-    "files": ["select2old.js", "select2old.png", "select2x2.png", "select2old.css", "select2old-spinner.gif"],
+    "main": "select2",
+    "files": ["select2.js", "select2.png", "select2x2.png", "select2.css", "select2-spinner.gif"],
     "shim": {
         "select2old": {
-            "imports": ["jquery", "./select2old.css!"],
+            "imports": ["jquery", "./select2.css!"],
             "exports": "$"
         }
     },
