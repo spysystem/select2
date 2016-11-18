@@ -1,10 +1,10 @@
 /**
- * Select2 Icelandic translation.
+ * select2old Icelandic translation.
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['is'] = {
+    $.fn.select2old.locales['is'] = {
         formatNoMatches: function () { return "Ekkert fannst"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Vinsamlegast skrifið " + n + " staf" + (n > 1 ? "i" : "") + " í viðbót"; },
         formatInputTooLong: function (input, max) { var n = input.length - max; return "Vinsamlegast styttið texta um " + n + " staf" + (n > 1 ? "i" : ""); },
@@ -13,5 +13,5 @@
         formatSearching: function () { return "Leita…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['is']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['is']);
 })(jQuery);

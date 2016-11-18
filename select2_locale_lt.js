@@ -1,13 +1,13 @@
 /**
- * Select2 Lithuanian translation.
- * 
+ * select2old Lithuanian translation.
+ *
  * @author  CRONUS Karmalakas <cronus dot karmalakas at gmail dot com>
  * @author  Uriy Efremochkin <efremochkin@uriy.me>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['lt'] = {
+    $.fn.select2old.locales['lt'] = {
         formatNoMatches: function () { return "Atitikmenų nerasta"; },
         formatInputTooShort: function (input, min) { return "Įrašykite dar" + character(min - input.length); },
         formatInputTooLong: function (input, max) { return "Pašalinkite" + character(input.length - max); },
@@ -18,7 +18,7 @@
         formatSearching: function () { return "Ieškoma…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['lt']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['lt']);
 
     function character (n) {
         return " " + n + " simbol" + ((n%100 > 9 && n%100 < 21) || n%10 == 0 ? "ių" : n%10 > 1 ? "ius" : "į");

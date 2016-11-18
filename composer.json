@@ -1,10 +1,10 @@
 {
   "name":
-  "ivaynberg/select2",
-  "description": "Select2 is a jQuery based replacement for select boxes.",
+  "ivaynberg/select2old",
+  "description": "select2old is a jQuery based replacement for select boxes.",
   "version": "3.5.4",
   "type": "component",
-  "homepage": "http://ivaynberg.github.io/select2/",
+  "homepage": "http://ivaynberg.github.io/select2old/",
   "license": "Apache-2.0",
   "require": {
     "robloach/component-installer": "*",
@@ -13,15 +13,15 @@
   "extra": {
     "component": {
       "scripts": [
-        "select2.js"
+        "select2old.js"
       ],
       "files": [
-        "select2.js",
+        "select2old.js",
         "select2_locale_*.js",
-        "select2.css",
-        "select2-bootstrap.css",
-        "select2-spinner.gif",
-        "select2.png",
+        "select2old.css",
+        "select2old-bootstrap.css",
+        "select2old-spinner.gif",
+        "select2old.png",
         "select2x2.png"
       ]
     }

@@ -10,7 +10,7 @@ if [ ! $ver ]; then
 	exit
 fi
 
-name="select2"
+name="select2old"
 js="$name.js"
 mini="$name.min.js"
 css="$name.css"
@@ -28,10 +28,10 @@ git pull
 
 echo "Updating Version Identifiers"
 
-sed -E -e "s/\"version\": \"([0-9\.]+)\",/\"version\": \"$ver\",/g" -i -- bower.json select2.jquery.json component.json composer.json package.json
+sed -E -e "s/\"version\": \"([0-9\.]+)\",/\"version\": \"$ver\",/g" -i -- bower.json select2old.jquery.json component.json composer.json package.json
 
 git add bower.json
-git add select2.jquery.json
+git add select2old.jquery.json
 git add component.json
 git add composer.json
 git add package.json

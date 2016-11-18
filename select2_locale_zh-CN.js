@@ -1,9 +1,9 @@
 /**
- * Select2 Chinese translation
+ * select2old Chinese translation
  */
 (function ($) {
     "use strict";
-    $.fn.select2.locales['zh-CN'] = {
+    $.fn.select2old.locales['zh-CN'] = {
         formatNoMatches: function () { return "没有找到匹配项"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "请再输入" + n + "个字符";},
         formatInputTooLong: function (input, max) { var n = input.length - max; return "请删掉" + n + "个字符";},
@@ -12,5 +12,5 @@
         formatSearching: function () { return "搜索中…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['zh-CN']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['zh-CN']);
 })(jQuery);

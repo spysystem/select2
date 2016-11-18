@@ -1,12 +1,12 @@
 /**
- * Select2 Galician translation
- * 
+ * select2old Galician translation
+ *
  * Author: Leandro Regueiro <leandro.regueiro@gmail.com>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['gl'] = {
+    $.fn.select2old.locales['gl'] = {
         formatNoMatches: function () {
             return "Non se atoparon resultados";
         },
@@ -41,5 +41,5 @@
         }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['gl']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['gl']);
 })(jQuery);

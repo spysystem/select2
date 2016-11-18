@@ -1,13 +1,13 @@
 /**
- * Select2 Persian translation.
- * 
+ * select2old Persian translation.
+ *
  * Author: Ali Choopan <choopan@arsh.co>
  * Author: Ebrahim Byagowi <ebrahim@gnu.org>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['fa'] = {
+    $.fn.select2old.locales['fa'] = {
         formatMatches: function (matches) { return matches + " نتیجه موجود است، کلیدهای جهت بالا و پایین را برای گشتن استفاده کنید."; },
         formatNoMatches: function () { return "نتیجه‌ای یافت نشد."; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "لطفاً " + n + " نویسه بیشتر وارد نمایید"; },
@@ -17,5 +17,5 @@
         formatSearching: function () { return "در حال جستجو…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['fa']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['fa']);
 })(jQuery);

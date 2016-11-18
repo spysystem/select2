@@ -1,9 +1,9 @@
-Select2
+select2old
 =======
 
-Select2 is a jQuery-based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
+select2old is a jQuery-based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.
 
-To get started, checkout examples and documentation at http://select2.github.io/select2/
+To get started, checkout examples and documentation at http://select2old.github.io/select2old/
 
 Use cases
 ---------
@@ -11,7 +11,7 @@ Use cases
 * Enhancing native selects with search.
 * Enhancing native selects with a better multi-select interface.
 * Loading data from JavaScript: easily load items via ajax and have them searchable.
-* Nesting optgroups: native selects only support one level of nested. Select2 does not have this restriction.
+* Nesting optgroups: native selects only support one level of nested. select2old does not have this restriction.
 * Tagging: ability to add new items on the fly.
 * Working with large, remote datasets: ability to partially load a dataset based on the search term.
 * Paging of large datasets: easy support for loading more pages when the results are scrolled to the end.
@@ -27,45 +27,45 @@ Browser compatibility
 
 Usage
 -----
-You can source Select2 directly from a CDN like [jsDelivr](http://www.jsdelivr.com/#!select2) or [CDNJS](http://www.cdnjs.com/libraries/select2), [download it from this GitHub repo](https://github.com/select2/select2/tags), or use one of the integrations below.
+You can source select2old directly from a CDN like [jsDelivr](http://www.jsdelivr.com/#!select2old) or [CDNJS](http://www.cdnjs.com/libraries/select2old), [download it from this GitHub repo](https://github.com/select2old/select2old/tags), or use one of the integrations below.
 
 Integrations
 ------------
 
-* [Wicket-Select2](https://github.com/ivaynberg/wicket-select2) (Java / [Apache Wicket](http://wicket.apache.org))
-* [select2-rails](https://github.com/argerim/select2-rails) (Ruby on Rails)
+* [Wicket-select2old](https://github.com/ivaynberg/wicket-select2old) (Java / [Apache Wicket](http://wicket.apache.org))
+* [select2old-rails](https://github.com/argerim/select2old-rails) (Ruby on Rails)
 * [AngularUI](http://angular-ui.github.io/#ui-select) ([AngularJS](https://angularjs.org/))
-* [Django](https://github.com/applegrew/django-select2)
+* [Django](https://github.com/applegrew/django-select2old)
 * [Symfony](https://github.com/19Gerhard85/sfSelect2WidgetsPlugin)
 * [Symfony2](https://github.com/avocode/FormExtensions)
-* [Bootstrap 2](https://github.com/t0m/select2-bootstrap-css) and [Bootstrap 3](https://github.com/t0m/select2-bootstrap-css/tree/bootstrap3) (CSS skins)
-* [Meteor](https://github.com/nate-strauser/meteor-select2) (modern reactive JavaScript framework; + [Bootstrap 3 skin](https://github.com/esperadomedia/meteor-select2-bootstrap3-css/))
-* [Meteor](https://jquery-select2.meteor.com)
-* [Yii 2.x](http://demos.krajee.com/widgets#select2)
-* [Yii 1.x](https://github.com/tonybolzan/yii-select2)
-* [AtmosphereJS](https://atmospherejs.com/package/jquery-select2)
+* [Bootstrap 2](https://github.com/t0m/select2old-bootstrap-css) and [Bootstrap 3](https://github.com/t0m/select2old-bootstrap-css/tree/bootstrap3) (CSS skins)
+* [Meteor](https://github.com/nate-strauser/meteor-select2old) (modern reactive JavaScript framework; + [Bootstrap 3 skin](https://github.com/esperadomedia/meteor-select2old-bootstrap3-css/))
+* [Meteor](https://jquery-select2old.meteor.com)
+* [Yii 2.x](http://demos.krajee.com/widgets#select2old)
+* [Yii 1.x](https://github.com/tonybolzan/yii-select2old)
+* [AtmosphereJS](https://atmospherejs.com/package/jquery-select2old)
 * [EmberJS](https://github.com/iStefo/ember-select-2)
 
 ### Example Integrations
 
-* [Knockout.js](https://github.com/ivaynberg/select2/wiki/Knockout.js-Integration)
-* [Socket.IO](https://github.com/ivaynberg/select2/wiki/Socket.IO-Integration)
-* [PHP](https://github.com/ivaynberg/select2/wiki/PHP-Example)
-* [.Net MVC] (https://github.com/ivaynberg/select2/wiki/.Net-MVC-Example)
+* [Knockout.js](https://github.com/ivaynberg/select2old/wiki/Knockout.js-Integration)
+* [Socket.IO](https://github.com/ivaynberg/select2old/wiki/Socket.IO-Integration)
+* [PHP](https://github.com/ivaynberg/select2old/wiki/PHP-Example)
+* [.Net MVC] (https://github.com/ivaynberg/select2old/wiki/.Net-MVC-Example)
 
 Internationalization (i18n)
 ---------------------------
 
-Select2 supports multiple languages by simply including the right language JS
-file (`select2_locale_it.js`, `select2_locale_nl.js`, etc.) after `select2.js`.
+select2old supports multiple languages by simply including the right language JS
+file (`select2_locale_it.js`, `select2_locale_nl.js`, etc.) after `select2old.js`.
 
 Missing a language? Just copy `select2_locale_en.js.template`, translate
-it, and make a pull request back to Select2 here on GitHub.
+it, and make a pull request back to select2old here on GitHub.
 
 Documentation
 -------------
 
-The documentation for Select2 is available [through GitHub Pages](http://select2.github.io/select2/) and is located within this repository in the [`gh-pages` branch](https://github.com/ivaynberg/select2/tree/gh-pages).
+The documentation for select2old is available [through GitHub Pages](http://select2old.github.io/select2old/) and is located within this repository in the [`gh-pages` branch](https://github.com/ivaynberg/select2old/tree/gh-pages).
 
 Community
 ---------
@@ -74,25 +74,25 @@ Community
 
 Have a bug? Please create an issue here on GitHub!
 
-https://github.com/ivaynberg/select2/issues
+https://github.com/ivaynberg/select2old/issues
 
 ### Mailing list
 
 Have a question? Ask on our mailing list!
 
-select2@googlegroups.com
+select2old@googlegroups.com
 
-https://groups.google.com/d/forum/select2
+https://groups.google.com/d/forum/select2old
 
 ### IRC channel
 
-Need help implementing Select2 in your project? Ask in our IRC channel!
+Need help implementing select2old in your project? Ask in our IRC channel!
 
 **Network:** [Freenode](https://freenode.net/) (`chat.freenode.net`)
 
-**Channel:** `#select2`
+**Channel:** `#select2old`
 
-**Web access:** https://webchat.freenode.net/?channels=select2
+**Web access:** https://webchat.freenode.net/?channels=select2old
 
 Copyright and license
 ---------------------

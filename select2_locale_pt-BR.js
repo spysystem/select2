@@ -1,10 +1,10 @@
 /**
- * Select2 Brazilian Portuguese translation
+ * select2old Brazilian Portuguese translation
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['pt-BR'] = {
+    $.fn.select2old.locales['pt-BR'] = {
         formatNoMatches: function () { return "Nenhum resultado encontrado"; },
         formatAjaxError: function () { return "Erro na busca"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Digite " + (min == 1 ? "" : "mais") + " " + n + " caracter" + (n == 1? "" : "es"); },
@@ -14,5 +14,5 @@
         formatSearching: function () { return "Buscando…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['pt-BR']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['pt-BR']);
 })(jQuery);

@@ -1,12 +1,12 @@
 /**
- * Select2 Turkish translation.
- * 
+ * select2old Turkish translation.
+ *
  * Author: Salim KAYABAŞI <salim.kayabasi@gmail.com>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['tr'] = {
+    $.fn.select2old.locales['tr'] = {
         formatMatches: function (matches) { if (matches === 1) { return "Sadece bir sonuç bulundu, seçmek için enter tuşuna basabilirsiniz."; } return matches + " sonuç bulundu, yukarı ve aşağı tuşları ile seçebilirsiniz."; },
         formatNoMatches: function () { return "Sonuç bulunamadı"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "En az " + n + " karakter daha girmelisiniz"; },
@@ -16,5 +16,5 @@
         formatSearching: function () { return "Aranıyor…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['tr']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['tr']);
 })(jQuery);

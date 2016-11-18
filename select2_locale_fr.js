@@ -1,10 +1,10 @@
 /**
- * Select2 French translation
+ * select2old French translation
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['fr'] = {
+    $.fn.select2old.locales['fr'] = {
         formatMatches: function (matches) { return matches + " résultats sont disponibles, utilisez les flèches haut et bas pour naviguer."; },
         formatNoMatches: function () { return "Aucun résultat trouvé"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Saisissez " + n + " caractère" + (n == 1? "" : "s") + " supplémentaire" + (n == 1? "" : "s") ; },
@@ -14,5 +14,5 @@
         formatSearching: function () { return "Recherche en cours…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['fr']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['fr']);
 })(jQuery);

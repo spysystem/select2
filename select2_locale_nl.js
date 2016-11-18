@@ -1,10 +1,10 @@
 /**
- * Select2 Dutch translation
+ * select2old Dutch translation
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['nl'] = {
+    $.fn.select2old.locales['nl'] = {
         formatNoMatches: function () { return "Geen resultaten gevonden"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Vul nog " + n + " karakter" + (n == 1? "" : "s") + " in"; },
         formatInputTooLong: function (input, max) { var n = input.length - max; return "Haal " + n + " karakter" + (n == 1? "" : "s") + " weg"; },
@@ -13,5 +13,5 @@
         formatSearching: function () { return "Zoeken…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['nl']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['nl']);
 })(jQuery);

@@ -1,12 +1,12 @@
 /**
- * Select2 Russian translation.
+ * select2old Russian translation.
  *
  * @author  Uriy Efremochkin <efremochkin@uriy.me>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['ru'] = {
+    $.fn.select2old.locales['ru'] = {
         formatNoMatches: function () { return "Совпадений не найдено"; },
         formatInputTooShort: function (input, min) { return "Пожалуйста, введите еще хотя бы" + character(min - input.length); },
         formatInputTooLong: function (input, max) { return "Пожалуйста, введите на" + character(input.length - max) + " меньше"; },
@@ -15,7 +15,7 @@
         formatSearching: function () { return "Поиск…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['ru']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['ru']);
 
     function character (n) {
         return " " + n + " символ" + (n%10 < 5 && n%10 > 0 && (n%100 < 5 || n%100 > 20) ? n%10 > 1 ? "a" : "" : "ов");

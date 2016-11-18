@@ -1,12 +1,12 @@
 /**
- * Select2 Vietnamese translation.
- * 
+ * select2old Vietnamese translation.
+ *
  * Author: Long Nguyen <olragon@gmail.com>, Nguyen Chien Cong
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['vi'] = {
+    $.fn.select2old.locales['vi'] = {
         formatNoMatches: function () { return "Không tìm thấy kết quả"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Vui lòng nhập nhiều hơn " + n + " ký tự"; },
         formatInputTooLong: function (input, max) { var n = input.length - max; return "Vui lòng nhập ít hơn " + n + " ký tự"; },
@@ -15,6 +15,6 @@
         formatSearching: function () { return "Đang tìm…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['vi']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['vi']);
 })(jQuery);
 

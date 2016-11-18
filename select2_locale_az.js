@@ -1,12 +1,12 @@
 /**
- * Select2 Azerbaijani translation.
+ * select2old Azerbaijani translation.
  *
  * Author: Farhad Safarov <farhad.safarov@gmail.com>
  */
 (function ($) {
     "use strict";
 
-     $.fn.select2.locales['az'] = {
+     $.fn.select2old.locales['az'] = {
         formatMatches: function (matches) { return matches + " nəticə mövcuddur, hərəkət etdirmək üçün yuxarı və aşağı düymələrindən istifadə edin."; },
         formatNoMatches: function () { return "Nəticə tapılmadı"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return n + " simvol daxil edin"; },
@@ -16,5 +16,5 @@
         formatSearching: function () { return "Axtarılır…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['az']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['az']);
 })(jQuery);

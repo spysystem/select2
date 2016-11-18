@@ -1,9 +1,9 @@
 /**
- * Select2 Uyghur translation
+ * select2old Uyghur translation
  */
 (function ($) {
     "use strict";
-    $.fn.select2.locales['ug-CN'] = {
+    $.fn.select2old.locales['ug-CN'] = {
         formatNoMatches: function () { return "ماس كېلىدىغان ئۇچۇر تېپىلمىدى"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "يەنە " + n + " ھەرپ كىرگۈزۈڭ";},
         formatInputTooLong: function (input, max) { var n = input.length - max; return "" + n + "ھەرپ ئۆچۈرۈڭ";},
@@ -12,5 +12,5 @@
         formatSearching: function () { return "ئىزدەۋاتىدۇ…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['ug-CN']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['ug-CN']);
 })(jQuery);

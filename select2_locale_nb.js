@@ -1,5 +1,5 @@
 /**
- * Select2 Norwegian Bokmål translation.
+ * select2old Norwegian Bokmål translation.
  *
  * Author: Torgeir Veimo <torgeir.veimo@gmail.com>
  * Author: Bjørn Johansen <post@bjornjohansen.no>
@@ -7,7 +7,7 @@
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['nb'] = {
+    $.fn.select2old.locales['nb'] = {
         formatMatches: function (matches) { if (matches === 1) { return "Ett resultat er tilgjengelig, trykk enter for å velge det."; } return matches + " resultater er tilgjengelig. Bruk piltastene opp og ned for å navigere."; },
         formatNoMatches: function () { return "Ingen treff"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Vennligst skriv inn " + n + (n>1 ? " flere tegn" : " tegn til"); },
@@ -17,6 +17,6 @@
         formatSearching: function () { return "Søker …"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['no']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['no']);
 })(jQuery);
 

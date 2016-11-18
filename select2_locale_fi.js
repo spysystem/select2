@@ -1,9 +1,9 @@
 /**
- * Select2 Finnish translation
+ * select2old Finnish translation
  */
 (function ($) {
     "use strict";
-    $.fn.select2.locales['fi'] = {
+    $.fn.select2old.locales['fi'] = {
         formatNoMatches: function () {
             return "Ei tuloksia";
         },
@@ -26,5 +26,5 @@
         }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['fi']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['fi']);
 })(jQuery);

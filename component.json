@@ -1,19 +1,19 @@
 {
-  "name": "select2",
-  "repo": "ivaynberg/select2",
-  "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
+  "name": "select2old",
+  "repo": "ivaynberg/select2old",
+  "description": "select2old is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
   "version": "3.5.4",
-  "demo": "http://ivaynberg.github.io/select2/",
+  "demo": "http://ivaynberg.github.io/select2old/",
   "keywords": [
     "jquery"
   ],
-  "main": "select2.js",
+  "main": "select2old.js",
   "styles": [
-    "select2.css",
-    "select2-bootstrap.css"
+    "select2old.css",
+    "select2old-bootstrap.css"
   ],
   "scripts": [
-    "select2.js",
+    "select2old.js",
     "select2_locale_ar.js",
     "select2_locale_bg.js",
     "select2_locale_ca.js",
@@ -58,8 +58,8 @@
     "select2_locale_zh-TW.js"
   ],
   "images": [
-    "select2-spinner.gif",
-    "select2.png",
+    "select2old-spinner.gif",
+    "select2old.png",
     "select2x2.png"
   ],
   "license": "MIT"

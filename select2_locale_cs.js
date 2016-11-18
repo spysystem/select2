@@ -1,6 +1,6 @@
 /**
- * Select2 Czech translation.
- * 
+ * select2old Czech translation.
+ *
  * Author: Michal Marek <ahoj@michal-marek.cz>
  * Author - sklonovani: David Vallner <david@vallner.net>
  */
@@ -12,7 +12,7 @@
         3: function() { return "tři"; },
         4: function() { return "čtyři"; }
     }
-    $.fn.select2.locales['cs'] = {
+    $.fn.select2old.locales['cs'] = {
         formatNoMatches: function () { return "Nenalezeny žádné položky"; },
         formatInputTooShort: function (input, min) {
             var n = min - input.length;
@@ -47,5 +47,5 @@
         formatSearching: function () { return "Vyhledávání…"; }
     };
 
-	$.extend($.fn.select2.defaults, $.fn.select2.locales['cs']);
+	$.extend($.fn.select2old.defaults, $.fn.select2old.locales['cs']);
 })(jQuery);

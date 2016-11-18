@@ -1,12 +1,12 @@
 /**
- * Select2 Catalan translation.
- * 
+ * select2old Catalan translation.
+ *
  * Author: David Planella <david.planella@gmail.com>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['ca'] = {
+    $.fn.select2old.locales['ca'] = {
         formatNoMatches: function () { return "No s'ha trobat cap coincidència"; },
         formatInputTooShort: function (input, min) { var n = min - input.length; return "Introduïu " + n + " caràcter" + (n == 1 ? "" : "s") + " més"; },
         formatInputTooLong: function (input, max) { var n = input.length - max; return "Introduïu " + n + " caràcter" + (n == 1? "" : "s") + "menys"; },
@@ -15,5 +15,5 @@
         formatSearching: function () { return "S'està cercant…"; }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['ca']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['ca']);
 })(jQuery);

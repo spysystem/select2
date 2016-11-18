@@ -1,12 +1,12 @@
 /**
- * Select2 Basque translation.
+ * select2old Basque translation.
  *
  * Author: Julen Ruiz Aizpuru <julenx at gmail dot com>
  */
 (function ($) {
     "use strict";
 
-    $.fn.select2.locales['eu'] = {
+    $.fn.select2old.locales['eu'] = {
         formatNoMatches: function () {
           return "Ez da bat datorrenik aurkitu";
         },
@@ -41,5 +41,5 @@
         }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['eu']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['eu']);
 })(jQuery);

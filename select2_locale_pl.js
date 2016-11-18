@@ -1,5 +1,5 @@
 /**
- * Select2 Polish translation.
+ * select2old Polish translation.
  *
  * @author  Jan Kondratowicz <jan@kondratowicz.pl>
  * @author  Uriy Efremochkin <efremochkin@uriy.me>
@@ -9,7 +9,7 @@
 (function($) {
     "use strict";
 
-    $.fn.select2.locales['pl'] = {
+    $.fn.select2old.locales['pl'] = {
         formatNoMatches: function() {
             return "Brak wyników";
         },
@@ -30,7 +30,7 @@
         }
     };
 
-    $.extend($.fn.select2.defaults, $.fn.select2.locales['pl']);
+    $.extend($.fn.select2old.defaults, $.fn.select2old.locales['pl']);
 
     function character(n, word, pluralSuffix) {
         //Liczba pojedyncza - brak suffiksu

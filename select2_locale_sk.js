@@ -1,5 +1,5 @@
 /**
- * Select2 Slovak translation.
+ * select2old Slovak translation.
  *
  * Author: David Vallner <david@vallner.net>
  */
@@ -11,7 +11,7 @@
         3: function() { return "tri"; },
         4: function() { return "štyri"; }
     };
-    $.fn.select2.locales['sk'] = {
+    $.fn.select2old.locales['sk'] = {
         formatNoMatches: function () { return "Nenašli sa žiadne položky"; },
         formatInputTooShort: function (input, min) {
             var n = min - input.length;
@@ -46,5 +46,5 @@
         formatSearching: function () { return "Vyhľadávanie…"; }
     };
 
-	$.extend($.fn.select2.defaults, $.fn.select2.locales['sk']);
+	$.extend($.fn.select2old.defaults, $.fn.select2old.locales['sk']);
 })(jQuery);
